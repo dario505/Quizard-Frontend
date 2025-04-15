@@ -6,7 +6,7 @@
       <button class="btn btn-purple2">Sign up for free!</button>
     </div>
     <div class="col-md-5">
-      <img src="@/assets/Proba.png" class="img-fluid" alt="Learning Illustration">
+      <img src="@/assets/img/hero.png" class="img-fluid" alt="Learning Illustration">
     </div>
 </section>
 </template>
