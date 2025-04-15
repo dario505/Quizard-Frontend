@@ -1,0 +1,158 @@
+body {
+    font-family: 'Lexend', sans-serif;
+    background-color: #fefefe;
+    color: #000;
+  }
+  
+  .navbar-brand {
+    font-weight: 700;
+    font-size: 24px;
+  }
+  
+  .btn-purple {
+    background: linear-gradient(to right, #AC5EE6, #DEADEB);
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 8px 20px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-purple:hover {
+    background-color: #974ed2;
+  }
+  
+  .info-badge {
+    border: 2px solid #AC5EE6;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: #AC5EE6;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6px;
+    font-size: 18px;
+  }
+  
+  .star {
+    color: #AC5EE6;
+    font-size: 18px;
+  }
+  
+  .rating-bar {
+    border-top: 2px solid #AC5EE6;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .profile-pic {
+    font-size: 32px;
+    margin-right: 10px;
+  }
+  
+  .comment-box {
+    background-color: #DEADEB;
+    border-radius: 999px;
+    border: none;
+    padding: 0.5rem 1rem;
+    flex: 1;
+  }
+  
+  .rating-stars {
+    font-size: 22px;
+    color: #AC5EE6;
+  }
+  
+  .quiz-section {
+    padding: 40px 20px;
+  }
+  
+  .quiz-section h2 {
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  
+  .quiz-card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    text-align: center;
+  }
+  
+  .quiz-card img {
+    border-radius: 10px;
+    max-height: 160px;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .quiz-card h5 {
+    font-weight: 600;
+    margin-top: 15px;
+  }
+  
+  .quiz-card p {
+    font-size: 14px;
+  }
+  
+  .start-btn {
+    background-color: #AC5EE6;
+    color: white;
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 6px 18px;
+    border: none;
+  }
+  
+  .rating {
+    color: #AC5EE6;
+    margin-bottom: 5px;
+  }
+  
+  .hero {
+    background: linear-gradient(rgba(172, 94, 230, 0.9), rgba(172, 94, 230, 0.9)), url('https://images.unsplash.com/photo-1523580846011-d3a5bc25702b') no-repeat center center/cover;
+    color: white;
+    padding: 100px 20px;
+    text-align: left;
+  }
+
+  .btn-purple2 {
+    background-color: white;
+    color: #AC5EE6;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 10px 20px;
+  }
+
+      .section-title {
+      font-weight: 600;
+      color: #AC5EE6;
+    }
+    .feature-icon {
+      font-size: 40px;
+      color: #AC5EE6;
+    }
+    .features {
+      background-color: #DEADEB;
+      padding: 60px 20px;
+    }
+    .testimonials-section{
+      background-color: white;
+      padding: 60px 20px;
+      color: black;
+      text-align: center;
+    }
+    .testimonial-card {
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
