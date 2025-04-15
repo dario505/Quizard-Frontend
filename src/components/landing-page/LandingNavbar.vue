@@ -5,8 +5,15 @@
         <span style="font-weight: 700; font-size: 24px;">Quizard</span>
       </a>
       <div>
-        <button class="btn btn-outline-secondary me-2">Log in</button>
-        <button class="btn btn-purple2">Sign up</button>
+        <router-link
+        to="/login"
+         class="btn btn-outline-secondary me-2"
+         >Log in</router-link>
+
+        <router-link 
+        to ="/register"
+        class= "btn btn-purple2"
+        >Sign up</router-link>
       </div>
     </nav>
   </template>

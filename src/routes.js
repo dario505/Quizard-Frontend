@@ -1,7 +1,7 @@
 import {createRouter, createWebHashHistory} from 'vue-router';
 import landingPage from './components/landing-page/LandingPage.vue';
-import signIn from './components/signup-signin/SignIn.vue';
-import signUp from './components/signup-signin/SignUp.vue';
+import login from './components/signup-signin/Login.vue';
+import register from './components/signup-signin/Register.vue';
 
 const router = createRouter({
     history: createWebHashHistory(),
@@ -10,10 +10,10 @@ const router = createRouter({
             path: '/', component: landingPage
         },
         {
-            path: '/signin', component: signIn
+            path: '/login', component: login
         },
         {
-            path: '/signup', component: signUp
+            path: '/register', component: register
         },
         {
             path: '/', redirect: '/0'

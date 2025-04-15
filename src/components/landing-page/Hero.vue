@@ -3,7 +3,10 @@
     <div class="col-md-6">
       <h1>Learn smarter,<br>not harder.</h1>
       <p class="my-3">Quizard makes learning easy! Start learning today!</p>
-      <button class="btn btn-purple2">Sign up for free!</button>
+      <router-link 
+      to ="/register" 
+      class="btn btn-purple2"
+      >Sign up for free!</router-link>
     </div>
     <div class="col-md-5">
       <img src="@/assets/img/hero.png" class="img-fluid" alt="Learning Illustration">

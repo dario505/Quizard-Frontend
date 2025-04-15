@@ -26,7 +26,9 @@
         </div>
       </div>
       <div class="mt-4">
-        <button class="btn btn-purple">Sign up for free!</button>
+        <router-link
+        to = "/register"
+        class="btn btn-purple">Sign up for free!</router-link>
       </div>
     </div>
   </section>

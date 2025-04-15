@@ -4,9 +4,11 @@
 
 <script>
 import landingPage from '@/components/landing-page/LandingPage.vue';
+import cardsQuiz from './components/quizes/CardsQuiz.vue';
 
 export default {
   components: {
-    landingPage}
+    landingPage, cardsQuiz
+  }
 }
 </script>

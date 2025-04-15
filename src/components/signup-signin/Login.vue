@@ -12,13 +12,13 @@
     </div>
     <button type="submit" class="btn btn-purple w-100 mt-3">Log In</button>
   </form>
-  <p class="text-center mt-3">Don’t have an account? <a href="register.html" class="text-link">Sign up</a></p>
+  <p class="text-center mt-3">Don’t have an account? <router-link to="/register">Sign up</router-link></p>
 </div>
 
 </template>
 
 <script>
   export default {
-    name: 'signIn'
+    name: 'login'
   }
 </script>
