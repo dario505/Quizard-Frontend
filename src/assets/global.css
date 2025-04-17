@@ -4,6 +4,24 @@ body {
   color: #000;
 }
 
+.continue-btn {
+  background-color: transparent;
+  border: 0px solid rgba(0, 0, 0, 0.3);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.2);
+;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.continue-btn:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #000;
+}
+
 .navbar-brand {
   font-weight: 700;
   font-size: 24px;
@@ -121,11 +139,31 @@ body {
   margin-bottom: 5px;
 }
 
+.img-border{
+  border-radius: 44px;
+}
+
 .hero {
-  background: linear-gradient(rgba(172, 94, 230, 0.9), rgba(172, 94, 230, 0.9)), url('https://images.unsplash.com/photo-1523580846011-d3a5bc25702b') no-repeat center center/cover;
+  background: 
+  linear-gradient(to right, rgba(173, 94, 229, 0.9), rgba(255, 255, 255, 0.9)),
+  url('img/hero/hero-library.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   color: white;
-  padding: 100px 20px;
+  padding: 150px 150px;
   text-align: left;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 48px;
+}
+
+h3{
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 180%;
 }
 
 .btn-purple2 {

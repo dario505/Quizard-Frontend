@@ -4,7 +4,7 @@
 
 <script>
 import landingPage from '@/components/landing-page/LandingPage.vue';
-import cardsQuiz from './components/quizes/CardsQuiz.vue';
+import cardsQuiz from './components/quizzes/CardsQuiz.vue';
 
 export default {
   components: {
