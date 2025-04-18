@@ -1,53 +1,62 @@
 [
   {
+    "id": 1,
     "title": "General Knowledge",
     "rating": 5,
     "description": "A mix of questions from various fields \u2013 the perfect challenge for those who love knowing a little bit about everything!",
     "image": "general_knowledge.png"
   },
   {
+    "id": 2,
     "title": "Geography",
     "rating": 4,
     "description": "Can you identify countries by their shapes? Do you know where the world's largest mountains and rivers are located? Test your geography knowledge!",
     "image": "geography.png"
   },
   {
+    "id": 3,
     "title": "Science & Technology",
     "rating": 4,
     "description": "From Newton\u2019s laws to modern innovations \u2013 see how well you know scientific discoveries and technological advancements.",
     "image": "science_tech.png"
   },
   {
+    "id": 4,
     "title": "Art & Culture",
     "rating": 4,
     "description": "Explore the world of painting, music, literature, and film through intriguing questions on art history and pop culture.",
     "image": "art_culture.png"
   },
   {
+    "id": 5,
     "title": "World History",
     "rating": 5,
     "description": "Test your knowledge of key events, leaders, and civilizations that have shaped the world as we know it today.",
     "image": "world_history.png"
   },
   {
+    "id": 6,
     "title": "Mythology & Legends",
     "rating": 5,
     "description": "From Greek gods to Norse warriors, dive into fascinating stories and beliefs from different cultures around the world.",
     "image": "mythology_legends.png"
   },
   {
+    "id": 7,
     "title": "Sports & Recreation",
     "rating": 5,
     "description": "From the Olympic Games to the FIFA World Cup \u2013 how familiar are you with the history and rules of the most popular sports?",
     "image": "sports_recreation.png"
   },
   {
+    "id": 8,
     "title": "Movies & TV",
     "rating": 5,
     "description": "Think you're a cinephile? Put your movie and TV knowledge to the test with questions spanning decades of entertainment.",
     "image": "movies_tv.png"
   },
   {
+    "id": 9,
     "title": "Literature & Books",
     "rating": 5,
     "description": "From Shakespeare to Tolkien \u2013 how well do you know your classic and modern literature?",

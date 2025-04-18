@@ -8,15 +8,17 @@
         </div>
     </div>
   </section>
+  <quiz-details></quiz-details>
 </template>
 <script>
 import cardsQuiz from '@/components/quizzes/CardsQuiz.vue';
 import quizzes from '@/assets/data/quizzes.json';
+import quizDetails from '../quizzes/QuizDetails.vue';
 export default{
 
     name: 'homepage',
     components: {
-        cardsQuiz
+        cardsQuiz, quizDetails
     },
     data(){
     return{
